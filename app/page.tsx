@@ -23,13 +23,13 @@ export default function Home() {
       <section className="container mx-auto px-4 pt-24 pb-20">
         <div className="max-w-[800px] mx-auto text-center">
           <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
-            Template Starter
+            Hello World!
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
             This is a customizable template. Replace all content with your own using the chat interface.
           </p>
           <div className="mt-12 flex gap-4 justify-center">
-            <Button size="lg" className="px-8">Sample Button</Button>
+            <Button size="lg" className="px-8 bg-purple-600 hover:bg-purple-700">Explore Now</Button>
             <Button size="lg" variant="outline" className="px-8" onClick={showToast}>
               Show Toast
             </Button>
@@ -91,3 +91,4 @@ export default function Home() {
     </div>
   )
 }
+
